@@ -24,7 +24,6 @@ class SingletonLazy {
     private SingletonLazy() {
     }
 }
-
 public class Demo13 {
     public static void main(String[] args) {
         SingletonLazy s1 = SingletonLazy.getInstance();
